@@ -81,14 +81,5 @@ const audio = document.addEventListener("keydown", function (e) {
       }, 100);
       break;
   }
-
-
 });
-
-const checkCaps = undefined;
-
-checkCaps.addEventListener("keydown"(function(e){
-if (e.ModifierState("CapsLock")){
-  window.alert("Capslock Está ativo");
-}}));
 
